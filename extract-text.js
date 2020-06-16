@@ -1,4 +1,4 @@
-// extract-text.js - for NE20 jQuery LAB 1: Text from a list
+// extract-text.js - for NE20 jQuery LAB 1: Text from a list. For a better function, see commented section below
 
 // $(document).ready(function (){    
 
@@ -11,3 +11,13 @@ function extractText(){
         });
     });
 }
+
+ //extraxt-text.js - A better extractText function for NE20 jQuery LAB 1: Text from a List
+/*
+   $(document).ready(function(){
+    function extractText(){
+    ("button").click(function(){
+       $("#result").text($("#items li").toArray().map(li => li.textContent).join(", "));
+        });  
+    };
+*/
