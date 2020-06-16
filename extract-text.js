@@ -1,4 +1,4 @@
-// extract-text.js 
+// extract-text.js - for NE20 jQuery LAB 1: Text from a list
 
 // $(document).ready(function (){    
 
